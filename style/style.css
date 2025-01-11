@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 1080px;
+  margin: 0;
+  font-family: "Fira Sans", serif;
+}
+
+/* Nav Bar */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #F5F5F5;
+  padding: 16px 32px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-m,
+.nav-n {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.btn-main {
+  padding: 8px 16px;
+  font-size: 18px;
+  background-color: #F5F5F5;
+  color: #006A50;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding: 32px;
+  background-color: #C6E4D6;
+}
+
+.hero h2 {
+  font-size: 24px;
+  color: #6e6c6c;
+  text-align: left;
+}
+
+.hero h1 {
+  font-size: 26px;
+  margin: 16px 0px;
+  font-weight: 600;
+}
+
+.hero .button a {
+  text-decoration: none;
+  padding: 11px 24px;
+  background-color: #006A50;
+  color: white;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.img img {
+  max-width: 400px;
+  height: auto;
+}
+
+/* Pillars Section */
+.main-pillar{
+  margin-top: 80px;
+}
+.pillars-container {
+ 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 32px 0px;
+  margin-top: 32px;
+}
+
+.pillar {
+  width: 300px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.pillar-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #0E0E0E;
+  margin: 1rem 0;
+}
+
+.pillar-description {
+  font-size: 16px;
+  color: #555;
+}
+/*future section*/
+.future{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  text-align: center; 
+  padding: 20px;
+}
+.future-m{
+  text-align: left;
+}
+
+
+.skills-container {
+  display: flex; 
+  justify-content: center; 
+  gap: 20px;
+  text-align: center; 
+}
+
+.skill {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+  width: 350px; 
+  padding: 20px;
+  background-color: #f5f5f5; /* Optional: Add background color */
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+
+.skill img {
+  width: 50px;
+  height: 50px; 
+  margin-bottom: 15px; 
+}
+
+.skill h4 {
+  margin: 10px 0; /* Add space around the title */
+}
+
+.skill p {
+  margin-bottom: 15px; /* Add space below the description */
+}
+
+.skill button {
+  padding: 10px 20px; /* Add padding inside the button */
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer; /* Add pointer cursor on hover */
+}
+
+.skill button:hover {
+  background-color: #0056b3; /* Change the button color on hover */
+}
+
+/*dr.yunus*/
+
+.dr-yunus {
+  background-color: white; 
+ background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  padding: 20px; /* Padding inside the box */
+  margin: 20px auto; /* Adds margin around the box and centers it horizontally */
+  width: 80%; 
+  max-width: 800px; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  text-align: center; 
+}
+
+.dr-yunus h5 {
+  font-size: 20px; /* Adjust font size for the subheading */
+  font-weight: bold; /* Make the subheading bold */
+  margin-top: 20px; /* Add margin above the subheading */
+}
+
+.dr-yunus p {
+  font-size: 16px; 
+  line-height: 1.6; 
+  color: #333; }
+
+.opinion-section {
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.question-column {
+  width: 100%; /
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 20px; 
+  color: #333;
+}
+
+.question-item {
+  display: flex; 
+  justify-content: space-between; 
+  margin-bottom: 20px; 
+  align-items: center; 
+}
+
+.question-item p {
+  font-size: 1rem;
+  color: #555; 
+  margin-right: 10px; 
+}
+
+.opinion-dropdown {
+  padding: 10px;
+  width: 200px; 
+  border-radius: 5px; 
+  border: 1px solid #ccc; 
+  background-color: #C6E4D6; 
+  font-size: 1rem; 
+  color: #333; /
+}
+
+/*recent news*/
+.news{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  text-align: center; 
+  padding: 20px;
+}
+h2 .recent-news{
+  text-align: left;
+  font-family: 40px;
+  font-weight: 500;
+}
+
+
+/* Box/Section styling */
+.box3 {
+  background-color: #f9f9f9; /* Light background for the section */
+  padding: 20px; /* Padding around the section */
+  border-radius: 8px; /* Rounded corners */
+  display: flex; /* Use flexbox to align the content */
+  justify-content: center; /* Center content horizontally */
+  margin-top: 20px; /* Space from the previous section */
+}
+
+/* Ensure that the content is displayed side-by-side */
+.content-box {
+  display: flex; /* Flexbox to arrange image and text side by side */
+  align-items: center; /* Center the items vertically */
+  max-width: 1200px; /* Max width of the content */
+  width: 100%; /* Full width within the container */
+}
+
+/* Text container */
+.text-container {
+  flex: 1; /* The text will take up equal space as the image */
+  margin-right: 20px; /* Space between the text and image */
+}
+
+.text-container h2 {
+  font-size: 32px;
+  margin-bottom: 10px; /* Space below the title */
+  color: #333; /* Dark text color for the title */
+}
+
+.text-container p {
+  font-size: 1rem;
+  color: #555; /* Light color for the description text */
+  line-height: 1.5; /* Line spacing for better readability */
+}
+
+/* Image container */
+.image-container {
+  flex: 1; /* The image will take up equal space as the text */
+}
+
+.image-container img {
+  width: 100%; /* Make the image fill its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: rounded corners for the image */
+}
+
+/* For the second section, where text is on the left and image on the right */
+.box3 .content-box:nth-child(2) {
+  flex-direction: row-reverse; /* Switch the order of the items: image right, text left */
+}
+
+
+
+/*Donation*/
+
+.donation-section {
+  background-color: #f9f9f9; 
+  padding: 40px 20px; 
+  text-align: center; 
+  border-radius: 8px; 
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+
+.donation-section h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #333; /* Dark color for the title */
+}
+
+.donation-section p {
+  font-size: 16px;
+  color: #555; /* Lighter color for the paragraph */
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Donation Box Container */
+.donation-boxes {
+  display: flex;
+  justify-content: space-between; /* Space between the boxes */
+  gap: 20px; /* Gap between the boxes */
+  margin-bottom: 30px; /* Space below the boxes */
+}
+
+.box {
+  background-color: #fff; /* White background for boxes */
+  border: 2px solid #ccc; /* Light border for boxes */
+  padding: 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333; /* Dark text color */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  width: 20%; /* Make the boxes take equal width */
+}
+
+.box:hover {
+  background-color: #e0e0e0; /* Hover effect to change background */
+}
+
+/* Other Amount Input Field and Button */
+.other-amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Space between the input and button */
+}
+
+#other-amount {
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 800px;
+}
+
+.donate-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #006A50; 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.donate-button:hover {
+  background-color: #45a049;
+}
+
+
+/* General Section Styling */
+.subscribe-section {
+  background-color: #f9f9f9; /* Light background */
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: 0 auto; /* Centering the section */
+}
+
+.subscribe-container h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.subscribe-container h5 {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.subscribe-form input {
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 600px;
+}
+
+.subscribe-form button {
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  background-color: #006A50; /* Green button */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-form button:hover {
+  background-color: #45a049;
+}
+
+.promise {
+  font-size: 12px;
+  color: #777;
+  margin-top: 20px;
+}
+hr.dashed-line {
+  border: none;
+  border-top: 2px dashed #000; 
+  margin: 20px 0; 
+}
+
+
+/* Footer */
+.footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.footer h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  margin: 0 15px;
+}
+
+.social-links img {
+  width: 30px; 
+
+}
+
