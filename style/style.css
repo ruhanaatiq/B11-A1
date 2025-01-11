@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-/* General Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body Styling */
 body {
  
   display: flex;
@@ -46,12 +45,14 @@ body {
 
 /* Hero Section */
 .hero-section {
+  margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   text-align: center;
   padding: 32px;
   background-color: #C6E4D6;
+  border-radius: 8px;
 }
 
 .hero h2 {
@@ -81,6 +82,10 @@ body {
 }
 
 /* Pillars Section */
+.skill-1{
+  background-color: #5490F5;
+}
+
 .main-pillar{
   margin-top: 80px;
 }
@@ -105,10 +110,10 @@ body {
 }
 
 .pillar-title {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   color: #0E0E0E;
-  margin: 1rem 0;
+  margin: 18px 0;
 }
 
 .pillar-description {
@@ -119,15 +124,47 @@ body {
 .future{
   display: flex;
   flex-direction: column;
-  justify-content: center; 
-  align-items: center;
-  text-align: center; 
   padding: 20px;
 }
 .future-m{
   text-align: left;
+  font-size: 40px;
+}
+.skill-m {
+  background-color: #92b5f3;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+  width: 350px; 
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
+  .skill-n{
+  background-color: #C6E4D6;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+  width: 350px; 
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+
+  .skill-o{
+    background-color: #F7EBCF;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    width: 350px; 
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
 
 .skills-container {
   display: flex; 
@@ -136,16 +173,7 @@ body {
   text-align: center; 
 }
 
-.skill {
-  display: flex;
-  flex-direction: column; 
-  align-items: center; 
-  text-align: center; 
-  width: 350px; 
-  padding: 20px;
-  background-color: #f5f5f5; /* Optional: Add background color */
-  border-radius: 16px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+
 
 .skill img {
   width: 50px;
@@ -154,25 +182,42 @@ body {
 }
 
 .skill h4 {
-  margin: 10px 0; /* Add space around the title */
+  margin: 10px 0; 
 }
 
-.skill p {
-  margin-bottom: 15px; /* Add space below the description */
+.skill-description {
+  margin-top: 24px;
+  margin-bottom: 15px; 
+}
+.btn-m{
+  padding: 10px 20px; 
+  background-color: #5490F5; 
+  margin-top: 24px;
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+.btn-n{
+  padding: 10px 20px; 
+  background-color: #09A15C; 
+  margin-top: 24px;
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
 }
 
-.skill button {
-  padding: 10px 20px; /* Add padding inside the button */
-  background-color: #007bff; /* Button background color */
-  color: white; /* Button text color */
-  border: none; /* Remove border */
-  border-radius: 5px; /* Rounded corners for the button */
-  cursor: pointer; /* Add pointer cursor on hover */
+.btn-o{
+  padding: 10px 20px; 
+  background-color: #FFC239;
+  margin-top: 24px;
+  color: white; 
+  border:#000; 
+  border-radius: 5px; 
+  cursor: pointer; 
 }
 
-.skill button:hover {
-  background-color: #0056b3; /* Change the button color on hover */
-}
 
 /*dr.yunus*/
 
@@ -180,8 +225,8 @@ body {
   background-color: white; 
  background-image: url(../assets/quote-bg.png);
   background-repeat: no-repeat;
-  padding: 20px; /* Padding inside the box */
-  margin: 20px auto; /* Adds margin around the box and centers it horizontally */
+  padding: 20px; 
+  margin: 20px auto;
   width: 80%; 
   max-width: 800px; 
   border: 1px solid #ddd; 
@@ -191,9 +236,9 @@ body {
 }
 
 .dr-yunus h5 {
-  font-size: 20px; /* Adjust font size for the subheading */
-  font-weight: bold; /* Make the subheading bold */
-  margin-top: 20px; /* Add margin above the subheading */
+  font-size: 20px; 
+  font-weight: bold; 
+  margin-top: 20px; 
 }
 
 .dr-yunus p {
@@ -203,8 +248,8 @@ body {
 
 .opinion-section {
   padding: 20px;
-  background-color: #f9f9f9; /* Light background color */
-  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; 
+  border-radius: 8px; 
 }
 
 .question-column {
@@ -249,122 +294,152 @@ h2 {
   text-align: center; 
   padding: 20px;
 }
-h2 .recent-news{
+.recent-news{
   text-align: left;
-  font-family: 40px;
-  font-weight: 500;
+  font-size: 40px;
+ 
 }
 
 
-/* Box/Section styling */
+/*newsb box*/
 .box3 {
-  background-color: #f9f9f9; /* Light background for the section */
-  padding: 20px; /* Padding around the section */
-  border-radius: 8px; /* Rounded corners */
-  display: flex; /* Use flexbox to align the content */
-  justify-content: center; /* Center content horizontally */
-  margin-top: 20px; /* Space from the previous section */
+  background-color: #f9f9f9; 
+  padding: 20px; 
+  border-radius: 8px; 
+  display: flex; 
+  justify-content: center; 
+  flex-direction: column; 
+  margin-top: 20px; 
+  max-width: 1200px; 
+  margin-left: auto;
+  margin-right: auto; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
 }
-
-/* Ensure that the content is displayed side-by-side */
 .content-box {
-  display: flex; /* Flexbox to arrange image and text side by side */
-  align-items: center; /* Center the items vertically */
-  max-width: 1200px; /* Max width of the content */
-  width: 100%; /* Full width within the container */
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 20px; 
+  flex-wrap: wrap; 
+  width: 100%; 
 }
 
-/* Text container */
 .text-container {
-  flex: 1; /* The text will take up equal space as the image */
-  margin-right: 20px; /* Space between the text and image */
+  flex: 1; 
+  min-width: 280px; 
+  margin-right: 20px; 
 }
 
 .text-container h2 {
-  font-size: 32px;
-  margin-bottom: 10px; /* Space below the title */
-  color: #333; /* Dark text color for the title */
+  font-size: 28px; 
+  margin-bottom: 10px;
+  color: #333; 
 }
 
 .text-container p {
-  font-size: 1rem;
-  color: #555; /* Light color for the description text */
-  line-height: 1.5; /* Line spacing for better readability */
+  font-size: 16px;
+  color: #555; 
+  line-height: 1.6; 
 }
 
-/* Image container */
 .image-container {
-  flex: 1; /* The image will take up equal space as the text */
+  flex: 1; 
+  min-width: 280px; 
 }
 
 .image-container img {
-  width: 100%; /* Make the image fill its container */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 8px; /* Optional: rounded corners for the image */
+  width: 100%; 
+  height: auto;
+  border-radius: 8px; 
+  max-height: 400px; 
+  object-fit: cover; 
 }
 
-/* For the second section, where text is on the left and image on the right */
+
 .box3 .content-box:nth-child(2) {
-  flex-direction: row-reverse; /* Switch the order of the items: image right, text left */
+  flex-direction: row-reverse; 
 }
+
+
+@media (max-width: 768px) {
+  .content-box {
+    flex-direction: column; 
+    gap: 15px; 
+  }
+
+  .text-container, .image-container {
+    flex: none; 
+    width: 100%; 
+  }
+
+  .text-container h2 {
+    font-size: 24px;
+  }
+
+  .text-container p {
+    font-size: 14px; 
+  }
+}
+
 
 
 
 /*Donation*/
 
 .donation-section {
+  margin-top: 30px;
   background-color: #f9f9f9; 
   padding: 40px 20px; 
   text-align: center; 
   border-radius: 8px; 
-  max-width: 800px; 
-  margin: 0 auto; 
+  max-width: 1200px;
+  
 }
 
 .donation-section h2 {
   font-size: 40px;
   margin-bottom: 20px;
-  color: #333; /* Dark color for the title */
+  color: #333; 
 }
 
 .donation-section p {
   font-size: 16px;
-  color: #555; /* Lighter color for the paragraph */
+  color: #555; 
   margin-bottom: 20px;
   line-height: 1.5;
 }
 
-/* Donation Box Container */
+/* Donation  */
+
 .donation-boxes {
   display: flex;
-  justify-content: space-between; /* Space between the boxes */
-  gap: 20px; /* Gap between the boxes */
-  margin-bottom: 30px; /* Space below the boxes */
+  justify-content: space-between; 
+  gap: 20px; 
+  margin-bottom: 30px; 
 }
-
 .box {
-  background-color: #fff; /* White background for boxes */
-  border: 2px solid #ccc; /* Light border for boxes */
+  background-color: #fff;
+  border: 2px solid #ccc; 
   padding: 20px;
   font-size: 1.1rem;
   font-weight: bold;
-  color: #333; /* Dark text color */
-  border-radius: 8px; /* Rounded corners */
+  color: #333; 
+  border-radius: 8px; 
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Smooth hover effect */
-  width: 20%; /* Make the boxes take equal width */
+  transition: background-color 0.3s ease; 
+  width: 20%; 
 }
 
 .box:hover {
-  background-color: #e0e0e0; /* Hover effect to change background */
+  background-color: #e0e0e0; 
 }
 
-/* Other Amount Input Field and Button */
+
 .other-amount {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px; /* Space between the input and button */
+  gap: 10px; 
 }
 
 #other-amount {
@@ -376,6 +451,7 @@ h2 .recent-news{
 }
 
 .donate-button {
+  margin-top: 20px;
   padding: 10px 20px;
   font-size: 18px;
   background-color: #006A50; 
@@ -391,14 +467,14 @@ h2 .recent-news{
 }
 
 
-/* General Section Styling */
+/* subscriber newsletter */
 .subscribe-section {
-  background-color: #f9f9f9; /* Light background */
+  background-color: #C6E4D6; 
   padding: 40px 20px;
   text-align: center;
   border-radius: 8px;
-  max-width: 900px;
-  margin: 0 auto; /* Centering the section */
+  max-width: 1200px;
+  margin-top: 30px;
 }
 
 .subscribe-container h1 {
